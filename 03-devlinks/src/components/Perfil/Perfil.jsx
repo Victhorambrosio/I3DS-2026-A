@@ -1,10 +1,11 @@
 import React from 'react'
 
-const Perfil = () => {
+const Perfil = ({children}) => {
   return (
-    <div>
-      
-    </div>
+     <div className='Perfil'>
+     <img src="https://placehold.co/200x200" alt="" />
+     <p>@{children}</p>
+     </div>
   )
 }
 

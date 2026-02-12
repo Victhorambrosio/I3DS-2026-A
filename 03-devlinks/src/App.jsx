@@ -1,5 +1,4 @@
 import './App.css'
-import fotoPerfil from "https://placehold.co/200x200";
 import Perfil from './components/Perfil/Perfil';
 
 function App() {
@@ -7,10 +6,8 @@ function App() {
 <Perfil/>
   return (
     <div id='App'>
-     <div className='perfil'>
-     <img src="https://placehold.co/200x200" alt="" />
-     <p>@Seu Nome</p>
-     </div>
+    <Perfil/>
+    
      <div className='switch'>botão switch</div>
      <div className='links'></div>
      <div className='socialLinks'></div>
