@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Perfil = ({children}) => {
+const Perfil = ({children, fotoPerfil}) => {
   return (
      <div className='Perfil'>
-     <img src="https://placehold.co/200x200" alt="" />
+     <img src={fotoPerfil} alt="" />
      <p>@{children}</p>
      </div>
   )
