@@ -13,6 +13,8 @@ namespace PrimeiraAPI.Data
 
         // Deve ser adicionado uma propriedade  DbSet para cada Model que será uma tabela no banco de dados. Na linha abaixo, estamos mapeando a entidade "Aluno" para uma tabela chamada "Alunos" no banco de dados.
         public DbSet<Models.Aluno> Alunos { get; set; }
+        public DbSet<Models.Curso> Cursos { get; set; }
+        public DbSet<Models.AlunoCurso> AlunosCursos { get; set; }
 
     }
 }

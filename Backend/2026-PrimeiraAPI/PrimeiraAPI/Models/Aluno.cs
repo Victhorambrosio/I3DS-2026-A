@@ -12,5 +12,8 @@ namespace PrimeiraAPI.Models
         public bool? CadastroAtivo { get; set; }
         public decimal Mensalidade { get; set; }
         public DateTime? DataCadastro { get; set; }
+
+        // Propriedade de navegação para Relação N:M Muitos-para-Muitos com Curso
+        public ICollection<Curso> Cursos { get; set; } = new List<Curso>();
     }
 }
