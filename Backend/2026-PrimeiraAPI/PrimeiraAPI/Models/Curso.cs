@@ -19,5 +19,6 @@ namespace PrimeiraAPI.Models
         // Decimal = O valor da mensalidade do curso
         // Propriedade de navegação para Relação N:M Muitos-para-Muitos com Curso
         public ICollection<Aluno> Alunos { get; set; } = new List<Aluno>();
+        public ICollection<Disciplina> Disciplinas { get; set; } = new List<Disciplina>();
     }
 }
